@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+span {
+    font-size: 100px;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    user-select: none;
+    color: white;
+}
+img {
+    max-width: 100%;
+}
+
+#prethodna {
+    left: 10px;
+}
+#sledeca {
+    right: 10px;
+}
+p {
+    display: block;
+}
